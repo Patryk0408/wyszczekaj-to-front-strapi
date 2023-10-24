@@ -1,7 +1,8 @@
 import styled, { css } from 'styled-components'
 import { NavLink } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
-export const HyperLink = styled.span`
+export const HyperLink = styled(Link)`
 	display: block;
 	width: 100%;
 	-webkit-tap-highlight-color: transparent !important;

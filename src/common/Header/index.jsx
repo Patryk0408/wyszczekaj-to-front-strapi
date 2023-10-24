@@ -11,13 +11,19 @@ const Header = () => {
 			<Nav>
 				<StyledNavLink to={toShop}>Sklep</StyledNavLink>
 				<NavItem>
-					<HyperLink>O nas</HyperLink>
+					<HyperLink to='AboutUs' smooth={true} duration={500} offset={-75}>
+						O nas
+					</HyperLink>
 				</NavItem>
 				<NavItem>
-					<HyperLink>Oferta</HyperLink>
+					<HyperLink to='Offer' smooth={true} duration={500} offset={-75}>
+						Oferta
+					</HyperLink>
 				</NavItem>
 				<NavItem>
-					<HyperLink>Kontakt</HyperLink>
+					<HyperLink to='Contact' smooth={true} duration={500} offset={-75}>
+						Kontakt
+					</HyperLink>
 				</NavItem>
 			</Nav>
 		</Wrapper>

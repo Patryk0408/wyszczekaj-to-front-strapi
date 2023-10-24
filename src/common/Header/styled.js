@@ -16,7 +16,6 @@ export const HyperLink = styled.span`
 
 export const StyledNavLink = styled(NavLink)`
 	display: block;
-	width: 100%;
 	-webkit-tap-highlight-color: transparent !important;
 	padding: 0;
 

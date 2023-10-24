@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import contactImage from '../../img/KONTAKT.jpg'
+import contactImage from '../../img/kontakt.jpg'
 import waveImage from '../../img/fala.png'
 
 export const Wrapper = styled.section`

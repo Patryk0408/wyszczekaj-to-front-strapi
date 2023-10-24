@@ -1,5 +1,5 @@
 import { HashRouter, Switch, Route, Redirect } from 'react-router-dom/'
-import Home from './features/Home'
+import HomePage from './features/HomePage'
 import Shop from './features/Shop'
 import { toShop, toHome } from './routes'
 
@@ -8,7 +8,7 @@ export const App = () => (
 		<nav>
 			<Switch>
 				<Route path={toHome()}>
-					<Home />
+					<HomePage />
 				</Route>
 				<Route path={toShop()}>
 					<Shop />
